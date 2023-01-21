@@ -1,0 +1,25 @@
+.todo {
+  max-width: 60%;
+  margin: 2rem auto 0;
+  background: #00bcb3;
+  padding: 1rem 2rem;
+}
+.todo h2 {
+  color: #fff;
+}
+
+.todo input {
+  width: 100%;
+  min-height: 50px;
+  padding-inline: 1rem;
+  font-size: 1.2rem;
+  background: #fff;
+  border-radius: 4px;
+  margin-block-end: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .todo {
+    max-width: 80%;
+  }
+}
